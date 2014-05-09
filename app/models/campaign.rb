@@ -5,8 +5,6 @@ class Campaign
   attr_reader :amount
 
   def initialize(api_campaign)
-    debugger
-    puts "asdfsd"
     @id = api_campaign[:id]
     @name = api_campaign[:name]
     @status = api_campaign[:status]
